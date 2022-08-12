@@ -34,4 +34,7 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello
-      - aly-hello
+  
+  say-aly-workflow:
+    jobs:
+      - aly-hello    
